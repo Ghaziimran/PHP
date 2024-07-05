@@ -1,5 +1,18 @@
 <?php
+// This is a single line comment
+/*
+This 
+is 
+a 
+multi 
+line 
+comment
+*/
 echo 'Hello From PHP';
+echo '<br />';
+print 'Hello From Print';
+echo '<br />';
+echo 'Value one', 'Value two';
 ?>
 
 <!DOCTYPE html>
