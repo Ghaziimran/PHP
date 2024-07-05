@@ -1,1 +1,2 @@
-1. The first part of section 2 has been completed focusing on variables and how to create them.
+The first part of the section has been completed focusing on variables and how to create them.
+I created variables for the title, heading and body
