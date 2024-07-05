@@ -1,6 +1,6 @@
 <?php
 $title = 'Learn PHP from scratch';
-$heading = 'Welcome to the course';
+$heading = 'Welcome to the Course';
 $body = 'In this course, you will learn the fundamentals of the PHP language'
 
 
