@@ -1,6 +1,6 @@
 <?php
 
-//String
+// String
 $name = 'Naruto Uzumaki';
 $name2 = "Sasuke";
 
@@ -8,36 +8,36 @@ var_dump($name);
 echo getType($name2);
 echo '<br />';
 
-//Integer
+// Integer
 $age = 35;
 var_dump($age);
 echo '<br />';
 
-//Float
+// Float
 $rating = 4.5;
 var_dump($rating);
 echo '<br />';
 
-//Boolean
+// Boolean
 $isLoaded = true;
 var_dump($isLoaded);
 echo '<br />';
 
-//Array
+// Array
 $friends = ['john', 'jack', 'jane'];
 var_dump($friends);
 echo '<br />';
 
-//Object
+// Object
 $person = new stdClass();
 var_dump($person);
 echo '<br />';
 
-//Null
+// Null
 $car = null;
 var_dump($car);
 echo '<br />';
 
-//Resourse
+// Resourse
 $file = fopen('textfile.txt', 'r');
 var_dump($file);
