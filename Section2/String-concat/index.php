@@ -2,7 +2,7 @@
 $firstName = 'John';
 $lastName = 'Doe';
 
-$fullName = $firstName . $lastName;
+$fullName = $firstName . ' ' .  $lastName;
 
 ?>
 
@@ -27,7 +27,15 @@ $fullName = $firstName . $lastName;
         <div class="bg-white rounded-lg shadow-md p-6">
             <!-- Output -->
 
-            <?= $fullName; ?>
+            <?= 'Hello, my name is ' . $fullName . '<br>'; ?>
+
+            <?= "Hello, my name is {$fullName} "; ?>
+            <!-- This is called string interpolation -->
+
+            <?= 'hello, my name is \'John\'' ?>
+            <!-- This is called escaping -->
+
+
 
         </div>
     </div>
