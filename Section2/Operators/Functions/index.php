@@ -9,6 +9,16 @@
 | `/`      | Division       |
 | `%`      | Modulus        |
 */
+$output = null;
+
+$num1 = 20;
+$num2 = 10;
+
+$output = "$num1 + $num2 = " . $num1 + $num2;
+$output = "$num1 - $num2 = " . $num1 - $num2;
+$output = "$num1 * $num2 = " . $num1 * $num2;
+$output = "$num1 / $num2 = " . $num1 / $num2;
+$output = "$num1 % $num2 = " . $num1 % $num2
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +39,9 @@
     <div class="container mx-auto p-4 mt-4">
         <div class="bg-white rounded-lg shadow-md p-6 mt-6">
             <!-- Output -->
+            <p class="text-xl">
+                <?= $output; ?>
+            </p>
         </div>
     </div>
 </body>
