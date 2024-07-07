@@ -19,9 +19,14 @@ $output = "$num1 + $num2 = " . $num1 + $num2;
 $output = "$num1 - $num2 = " . $num1 - $num2;
 $output = "$num1 * $num2 = " . $num1 * $num2;
 $output = "$num1 / $num2 = " . $num1 / $num2;
-$output = "$num1 % $num2 = " . $num1 % $num2
+$output = "$num1 % $num2 = " . $num1 % $num2;
 
 // Assignment Operators
+$num3 = 10;
+// $num3 = num3 + 20
+$num3 = $num3 += 20;
+
+$output = $num3
 
 ?>
 
