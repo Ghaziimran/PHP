@@ -31,8 +31,39 @@ $output = "$num1 % $num2 = " . $num1 % $num2;
 
 // Built-in PHP functions
 
+// rand()
+$output = rand();
+$output = getrandmax();
+$output = rand(1, 10);
 
+//round()
+$output = round(4.2);
 
+//ceil
+$output = ceil(4.2);
+
+//floor()
+$output = floor(4.2);
+
+//sqrt()
+$output = sqrt(64);
+
+//pi()
+$output = pi();
+
+//abs()
+$output = abs(-10);
+
+//max()
+$output = max(10, 20, 30, 40);
+$output = max([10, 40, 30, 20]);
+
+//min()
+$output = min(10, 20, 30, 40);
+$output = min([12, 50, 45, 32]);
+
+//
+$output = number_format(12345678.32454678, 2, '.', ',');
 
 
 
