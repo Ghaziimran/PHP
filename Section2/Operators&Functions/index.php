@@ -23,7 +23,7 @@
 <body class="bg-gray-100">
     <header class="bg-blue-500 text-white p-4">
         <div class="container mx-auto">
-            <h1 class="text-3xl font-semibold">PHP From Scratch</h1>
+            <h1 class="text-3xl font-semibold">PHP Fro Scratch</h1>
         </div>
     </header>
     <div class="container mx-auto p-4 mt-4">
