@@ -48,6 +48,14 @@ $output = 'User 2 is at index: ' . array_search('user2', $users);
 // array_push
 array_push($users, 'user3');
 
+//explode
+$tags = 'tech,code,programming';
+$tagsArr = explode(',', $tags);
+// var_dump($tagsArr);
+
+//implode
+$output = implode(',', $users);
+
 // in_array
 $output = 'User 3 exists: ' . in_array('user3', $users)
 
