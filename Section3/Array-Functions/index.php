@@ -30,7 +30,13 @@ $output = count($ids)
             <h2 class="text-xl font-semibold my-4">IDs Array</h2>
             <p>
             <pre>
-                    <?php print_r($ids); ?>
+                <?php print_r($ids); ?>
+            </pre>
+            </p>
+            <h2 class="text-xl font-semibold my-4">Users Array</h2>
+            <p>
+            <pre>
+                    <?php print_r($users); ?>
                 </pre>
             </p>
             </p>
