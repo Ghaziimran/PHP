@@ -13,8 +13,34 @@ $output = null;
 - a - AM/PM
 */
 
-$output = date('Y')
+// get year
+$output = date('Y');
 
+// get year with timestamp
+$output = date('Y', 936345600);
+
+// get timestamp from strtotime
+$output = date('Y', strtotime('2015-01-01'));
+
+// get month
+$output = date('m');
+
+// get day
+$output = date('D');
+$output = date('l');
+
+// get month-day-year
+$output = date('Y-m-d');
+$output = date('d-m-Y');
+
+// get hour
+$output = date('h');
+
+// get min
+$output = date('i');
+
+// get second
+$output = date('s');
 
 ?>
 
