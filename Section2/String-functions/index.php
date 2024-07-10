@@ -20,7 +20,7 @@ $output = strtoupper($string);
 
 $output = ucwords($string);
 
-$output = '  Hello World     ';
+$output = trim('  Hello World     ');
 
 
 
