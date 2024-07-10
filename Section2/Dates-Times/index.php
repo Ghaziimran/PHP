@@ -42,6 +42,11 @@ $output = date('i');
 // get second
 $output = date('s');
 
+// get am/pm
+$output = date('a');
+
+// all together
+$output = date('Y-m-d h:i:s a');
 ?>
 
 <!DOCTYPE html>
