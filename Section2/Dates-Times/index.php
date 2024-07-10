@@ -1,5 +1,21 @@
 <?php
 $output = null;
+
+/*
+- Y - this year
+- m - this month
+- d - this day
+- D - the day of the week - short name
+- l - the day of the week - long name
+- h - the hour
+- i - the minute
+- s - the second
+- a - AM/PM
+*/
+
+$output = date('Y')
+
+
 ?>
 
 <!DOCTYPE html>
