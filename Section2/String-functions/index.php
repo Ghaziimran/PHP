@@ -1,5 +1,13 @@
 <?php
 $output = null;
+$string = 'Hello World';
+
+$output = strlen($string);
+
+$output = str_word_count($string);
+
+$output = strpos($output, 'World');
+
 ?>
 
 <!DOCTYPE html>
