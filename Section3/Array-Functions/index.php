@@ -4,7 +4,55 @@ $output = null;
 $ids = [10, 22, 15, 45, 67];
 $users = ['user1', 'user2', 'user3'];
 
-$output = count($ids)
+// count
+$output = count($ids);
+
+// sort
+sort($ids);
+sort($users);
+
+// rsort
+rsort($ids);
+rsort($users);
+
+// array_push
+array_push($ids, 100);
+array_push($users, 'users4');
+
+// array_pop
+array_pop($ids);
+array_pop($users);
+
+// array_shift
+array_shift($ids);
+array_shift($users);
+
+// array_unshift
+array_unshift($ids, 100);
+array_unshift($users, 'users3');
+
+// array_slice
+$ids2 = array_slice($ids, 2, 3);
+// var_dump($ids2)
+
+// array_splice
+array_splice($ids, 1, 1, 'NEW ID');
+array_splice($users, 0, 1, 'NEW USER');
+
+// array_sum
+$output = 'Sum of IDs: ' . array_sum($ids);
+
+// array_search
+$output = 'User 2 is at index: ' . array_search('user2', $users);
+
+// array_push
+array_push($users, 'user3');
+
+// in_array
+$output = 'User 3 exists: ' . in_array('user3', $users)
+
+
+
 ?>
 
 <!DOCTYPE html>
