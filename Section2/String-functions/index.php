@@ -8,6 +8,22 @@ $output = str_word_count($string);
 
 $output = strpos($output, 'World');
 
+$output = $string[4];
+
+$output = substr($string, 6, 5); // should show world
+
+$output = str_replace('World', 'Uiverse', $string);
+
+$output = strtolower($string);
+
+$output = strtoupper($string);
+
+$output = ucwords($string);
+
+$output = '  Hello World     ';
+
+
+
 ?>
 
 <!DOCTYPE html>
