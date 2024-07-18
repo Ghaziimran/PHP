@@ -1,7 +1,7 @@
 <?php
 
 $names = array('john', 'jack', 'jill');
-$numbers = [1, 2, 3, 4, 5, 6];
+$numbers = [1,, 2, 3, 4, 5, 6];
 
 function inspect($value)
 {
