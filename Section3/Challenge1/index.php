@@ -59,3 +59,30 @@ array_pop($colors);
 */
 
 echo '<h3>Job Listings</h3>';
+
+$listings = [
+  [
+    'id' => 1,
+    'job_title' => 'PHP Developer',
+    'company' => 'ABC company',
+    'contact_email' => 'john@John.com',
+    'contact_phone' => '123-435-567',
+    'skills' => ['PHP', 'MySQL', 'JavaScript'],
+  ],
+  [
+    'id' => 2,
+    'job_title' => 'Web Designer',
+    'company' => '123 company',
+    'contact_email' => 'james@John.com',
+    'contact_phone' => '123-435-807',
+    'skills' => ['PhotoShop', 'Illustrator', 'CSS'],
+  ],
+  [
+    'id' => 3,
+    'job_title' => 'Web Developer',
+    'company' => 'ABC company',
+    'contact_email' => 'jakub@John.com',
+    'contact_phone' => '123-925-567',
+    'skills' => ['HTML', 'CSS', 'JavaScript'],
+  ]
+];
