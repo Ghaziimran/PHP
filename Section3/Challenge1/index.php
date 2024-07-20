@@ -37,8 +37,17 @@ $colors = ['red', 'blue', 'green', 'yellow'];
 
 $colors = array_reverse($colors);
 
-print_r($colors);
+// array_push($colors, 'purple', 'orange');
 
+// ARRAY_MERGE
+
+$colors = array_merge($colors, ['purple', 'orange']);
+
+array_splice($colors, 1, 1, 'pink');
+
+array_pop($colors);
+
+// print_r($colors);
 
 /*
   Challenge 3: Job listings array
