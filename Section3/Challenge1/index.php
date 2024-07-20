@@ -86,3 +86,17 @@ $listings = [
     'skills' => ['HTML', 'CSS', 'JavaScript'],
   ]
 ];
+
+array_push($listings, [
+  'id' => 4,
+  'job_title' => 'PHP Developer',
+  'company' => 'ABC company',
+  'contact_email' => 'mary@John.com',
+  'contact_phone' => '123-435-567',
+  'skills' => ['PHP', 'MySQL', 'JavaScript'],
+]);
+
+print_r($listings);
+
+// echo $listings[1]['job_title'];
+echo $listings[2]['skills'][0];
