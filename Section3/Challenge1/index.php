@@ -10,6 +10,16 @@
 */
 echo '<h3>Sum Of An Array</h3>';
 
+$numbers = [1, 2, 3, 4, 5];
+
+$sum = $numbers[0] + $numbers[1] + $numbers[2] + $numbers[3] + $numbers[4];
+
+$amount = count($numbers);
+
+echo 'The sum of the ' . $amount . ' number is ' . $sum;
+
+
+
 /*
   Challenge 2: Colors array
 
@@ -24,6 +34,11 @@ You should end up with the following array: ['yellow', 'pink', 'blue', 'red', 'p
 echo '<h3>Colors Array</h3>';
 
 $colors = ['red', 'blue', 'green', 'yellow'];
+
+$colors = array_reverse($colors);
+
+print_r($colors);
+
 
 /*
   Challenge 3: Job listings array
