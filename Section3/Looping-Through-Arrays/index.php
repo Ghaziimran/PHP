@@ -51,11 +51,12 @@ $users = [
                 <?php foreach ($users as $user) : ?>
                     <li><?= $user['name'] . ' - ' . $user['email']; ?></li>
                 <?php endforeach; ?>
-
             </ul>
             <h3 class="text-xl font-semibold mb-4">Getting key names and values from associative array</h3>
             <ul class="mb-6">
-
+                <?php foreach ($users as $user) : ?>
+                    <li><?= $user['name'] . ' - ' . $user['email']; ?></li>
+                <?php endforeach; ?>
             </ul>
         </div>
     </div>
