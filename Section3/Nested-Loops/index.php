@@ -1,3 +1,12 @@
+<?php
+for ($i = 0; $i < 5; $i++) {
+    for ($j = 0; $j < 5; $j++) {
+        echo $i . ' - ' . $j . '<br>';
+    }
+};
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
