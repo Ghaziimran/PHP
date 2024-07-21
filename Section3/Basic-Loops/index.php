@@ -5,11 +5,18 @@
 // };
 
 //Basic While loop
+// $i = 0;
+// while ($i < 10) {
+//     echo $i . '<br />';
+//     $i++;
+// }
+
+// Do while loop
 $i = 0;
-while ($i < 10) {
-    echo $i . '<br />';
+do {
+    echo $i;
     $i++;
-}
+} while ($i < 10);
 
 ?>
 
@@ -42,6 +49,12 @@ while ($i < 10) {
                     <li>Number: <?= $i ?></li>
                 <?php $i++;
                 endwhile ?>
+
+                <?php $i = 0;
+                do { ?>
+                <?php $i++;
+                } while ($i < 10) ?>
+                <!-- Do While loop -->
             </ul>
         </div>
     </div>
