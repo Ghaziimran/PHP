@@ -1,7 +1,15 @@
 <?php
+//Basic For loop
 // for ($i = 0; $i < 10; $i++) {
 //     echo $i . '<br />';
 // };
+
+//Basic While loop
+$i = 0;
+while ($i < 10) {
+    echo $i . '<br />';
+    $i++;
+}
 
 ?>
 
@@ -25,9 +33,15 @@
         <div class="bg-white rounded-lg shadow-md p-6 mt-6">
             <!-- Output -->
             <ul>
-                <?php for ($i = 0; $i < 10; $i++) : ?>
+                <?php for ($i = 0; $i < 10; $i++) : ?> <!--FOR Loop -->
                     <li>Number: <?= $i ?></li>
                 <?php endfor; ?>
+
+                <?php $i = 0;
+                while ($i < 10) : ?> <!-- While loop -->
+                    <li>Number: <?= $i ?></li>
+                <?php $i++;
+                endwhile ?>
             </ul>
         </div>
     </div>
