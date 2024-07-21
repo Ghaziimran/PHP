@@ -1,3 +1,10 @@
+<?php
+// for ($i = 0; $i < 10; $i++) {
+//     echo $i . '<br />';
+// };
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +24,11 @@
     <div class="container mx-auto p-4 mt-4">
         <div class="bg-white rounded-lg shadow-md p-6 mt-6">
             <!-- Output -->
+            <ul>
+                <?php for ($i = 0; $i < 10; $i++) : ?>
+                    <li>Number: <?= $i ?></li>
+                <?php endfor; ?>
+            </ul>
         </div>
     </div>
 </body>
