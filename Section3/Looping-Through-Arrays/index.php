@@ -35,7 +35,11 @@ $users = [
                 <?php endfor; ?>
             </ul>
             <h3 class="text-xl font-semibold mb-4">Using a foreach loop</h3>
-            <ul class="mb-6"></ul>
+            <ul class="mb-6">
+                <?php foreach ($names as $name) : ?>
+                    <li><?= $name; ?></li>
+                <?php endforeach; ?>
+            </ul>
             <h3 class="text-xl font-semibold mb-4">Using a foreach loop with index</h3>
             <ul class="mb-6"></ul>
             <h3 class="text-xl font-semibold mb-4">Using a foreach loop with associative array</h3>
