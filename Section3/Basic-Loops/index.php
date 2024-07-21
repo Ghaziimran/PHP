@@ -52,6 +52,7 @@ do {
 
                 <?php $i = 0;
                 do { ?>
+                    <li>Number: <?= $i ?></li>
                 <?php $i++;
                 } while ($i < 10) ?>
                 <!-- Do While loop -->
